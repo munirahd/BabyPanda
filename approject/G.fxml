@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="766.0" style="-fx-background-color: #F8F7F2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="approject.lettersController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#65947c" height="54.0" stroke="BLACK" strokeType="INSIDE" width="766.0" />
+      <Text layoutX="214.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Aclonica;" text="A WORD BEGINS WITH THE LETTER &quot;G&quot;?" textAlignment="CENTER" wrappingWidth="383.904296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#65947c" height="54.0" layoutY="485.0" stroke="BLACK" strokeType="INSIDE" width="766.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="28.0" layoutY="245.0" onMouseClicked="#HandleWrongImageClicked1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/har.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="282.0" layoutY="245.0" onMouseClicked="#HandleWrongImageClicked2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/ball.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="544.0" layoutY="245.0" onMouseClicked="#HandleRightImageClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/gout.jpg" />
+         </image>
+      </ImageView>
+      <HBox alignment="BOTTOM_RIGHT" layoutX="24.0" layoutY="479.0" prefHeight="47.0" prefWidth="726.0">
+         <children>
+            <Button fx:id="nextButton" disable="true" mnemonicParsing="false" onAction="#handleNextButton_ToLetterH" prefHeight="31.0" prefWidth="80.0" text="Next → " />
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="14.0" prefHeight="47.0" prefWidth="718.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleHomeButton" prefHeight="29.0" prefWidth="80.0" text="← Home" />
+         </children>
+      </HBox>
+      <Label fx:id="WrongChoiesMessage1" layoutX="308.0" layoutY="165.0" prefHeight="29.0" prefWidth="115.0" text=" " textFill="#da1e1e">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="WrongChoiesMessage2" layoutX="308.0" layoutY="201.0" prefHeight="29.0" prefWidth="115.0" text=" " textFill="#da1e1e">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

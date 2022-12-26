@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="534.0" prefWidth="766.0" style="-fx-background-color: #f8f7f2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="approject.HomeController">
+   <children>
+      <Button layoutX="299.0" layoutY="185.0" mnemonicParsing="false" onAction="#ShowMeLetters" prefHeight="47.0" prefWidth="181.0" style="-fx-background-color: #FFB100;" text="Show me letters ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#65947c" height="54.0" stroke="TRANSPARENT" strokeType="INSIDE" width="779.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#65947c" height="54.0" layoutY="480.0" stroke="TRANSPARENT" strokeType="INSIDE" width="779.0" />
+      <Label layoutX="296.0" layoutY="95.0" style="-fx-font-style: IMPACT;" text="PROGRESS" textFill="#b72750">
+         <font>
+            <Font name="Comic Sans MS Bold" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="54.0" fitWidth="64.0" layoutX="434.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/clipart-rocket-emoji-6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="71.0" layoutX="226.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/82e94950fd6ed063f219d38456e8d643-baby-letter-cubes-circle-icon-by-vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="64.0" layoutX="221.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/grapheme_color_synesthesia_numbers_as_personality_ordinal_linguistic_personification.png" />
+         </image>
+      </ImageView>
+      <HBox layoutX="16.0" layoutY="14.0" prefHeight="47.0" prefWidth="718.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleHomeButton" prefHeight="29.0" prefWidth="80.0" text="← Home" />
+         </children>
+      </HBox>
+      <Label fx:id="Letters" layoutX="267.0" layoutY="256.0" prefHeight="47.0" prefWidth="256.0" textFill="#b72750">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="Numbers" layoutX="269.0" layoutY="385.0" prefHeight="47.0" prefWidth="256.0" textFill="#b72750">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="299.0" layoutY="324.0" mnemonicParsing="false" onAction="#ShowMeNumbers" prefHeight="47.0" prefWidth="181.0" style="-fx-background-color: #FFB100;" text="Show me  numbers">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="566.0" layoutY="435.0" mnemonicParsing="false" onAction="#handlExportFile" prefHeight="14.0" prefWidth="181.0" style="-fx-background-color: #FFB100;" text="export porgress to text file" />
+   </children>
+</AnchorPane>

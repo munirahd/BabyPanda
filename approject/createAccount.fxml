@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="551.0" prefWidth="919.0" style="-fx-background-color: #F8F7F2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="approject.HomeController">
+   <children>
+      <Accordion layoutX="52.0" layoutY="56.0" />
+      <Rectangle fill="#529273" height="65.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="923.0" />
+      <Label layoutX="359.0" layoutY="56.0" prefHeight="83.0" prefWidth="316.0" text="Create new Account" textAlignment="CENTER">
+         <font>
+            <Font name="PT Sans" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txUser_id" layoutX="360.0" layoutY="147.0" prefHeight="35.0" prefWidth="264.0" promptText="Enter your ID" />
+      <Label layoutX="361.0" layoutY="125.0" prefHeight="23.0" prefWidth="93.0" text="USER ID" textAlignment="CENTER">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="364.0" layoutY="258.0" prefHeight="23.0" prefWidth="68.0" text="EMAIL" textAlignment="CENTER">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="364.0" layoutY="322.0" prefHeight="23.0" prefWidth="68.0" text="PASSWORD" textAlignment="CENTER">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="487.0" layoutY="391.0" prefHeight="23.0" prefWidth="30.0" text="AGE" textAlignment="CENTER">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="SingUpButton" layoutX="407.0" layoutY="439.0" mnemonicParsing="false" onAction="#handleCreateAccButton" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: ffb100;" text="SIGN UP">
+         <font>
+            <Font name="PT Mono Bold" size="15.0" />
+         </font>
+      </Button>
+      <Rectangle fill="#529273" height="72.0" layoutY="480.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="923.0" />
+      <TextField fx:id="txEmail" layoutX="360.0" layoutY="286.0" prefHeight="30.0" prefWidth="264.0" promptText="email@@mail.com" />
+      <ImageView fitHeight="186.0" fitWidth="110.0" layoutX="835.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/tree.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="comboBox" layoutX="532.0" layoutY="389.0" onMouseClicked="#add" prefWidth="150.0" />
+      <Label fx:id="alert" layoutX="532.0" layoutY="444.0" prefHeight="23.0" prefWidth="264.0" textFill="RED" />
+      <HBox layoutX="20.0" layoutY="18.0" prefHeight="47.0" prefWidth="718.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handlSignOutButton" prefHeight="29.0" prefWidth="80.0" text="← Back" />
+         </children>
+      </HBox>
+      <RadioButton fx:id="rd1" layoutX="343.0" layoutY="394.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="Boy">
+         <toggleGroup>
+            <ToggleGroup fx:id="genderGroup" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rd2" layoutX="412.0" layoutY="394.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="Girl" toggleGroup="$genderGroup" />
+      <Label layoutX="289.0" layoutY="391.0" prefHeight="23.0" prefWidth="68.0" text="GENDER" textAlignment="CENTER">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txName" layoutX="360.0" layoutY="218.0" prefHeight="30.0" prefWidth="264.0" promptText="Enter your name" />
+      <Label layoutX="365.0" layoutY="193.0" prefHeight="23.0" prefWidth="93.0" text="NAME" textAlignment="CENTER">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txPassword" layoutX="360.0" layoutY="345.0" prefHeight="26.0" prefWidth="264.0" promptText="Enter password" />
+   </children>
+</AnchorPane>

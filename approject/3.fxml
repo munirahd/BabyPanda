@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="534.0" prefWidth="766.0" style="-fx-background-color: #f8f7f2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="approject.numbersController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#65947c" height="54.0" stroke="TRANSPARENT" strokeType="INSIDE" width="771.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#65947c" height="54.0" layoutX="-7.0" layoutY="480.0" stroke="TRANSPARENT" strokeType="INSIDE" width="778.0" />
+      <Button layoutX="358.0" layoutY="302.0" mnemonicParsing="false" opacity="0.0" text="Correct" />
+      <HBox alignment="BOTTOM_RIGHT" layoutX="31.0" layoutY="473.0" prefHeight="47.0" prefWidth="726.0">
+         <children>
+            <Button fx:id="nextButton" disable="true" mnemonicParsing="false" onAction="#handleNextButton_ToNumber4" prefHeight="31.0" prefWidth="80.0" text="Next → " />
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="14.0" prefHeight="47.0" prefWidth="718.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleHomeButton" prefHeight="29.0" prefWidth="80.0" text="← Home" />
+         </children>
+      </HBox>
+      <Label layoutX="90.0" layoutY="80.0" text="How many lolipop are in this picture?">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="153.0" text="Enter the Correct Number  here:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldNumber" layoutX="410.0" layoutY="154.0" />
+      <Button layoutX="581.0" layoutY="152.0" mnemonicParsing="false" onAction="#HandleRightNumber_3" text="check" />
+      <Label fx:id="messageLabel" layoutX="247.0" layoutY="198.0" prefHeight="29.0" prefWidth="253.0" textAlignment="CENTER" textFill="#da1e1e">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="196.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/lolipop.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="343.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/lolipop.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="507.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/lolipop.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
