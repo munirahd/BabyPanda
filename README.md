@@ -15,12 +15,12 @@ https://user-images.githubusercontent.com/80950031/209573084-20e260ca-0cd4-4362-
 
 
 ## Why?
-This project is meant for our advanced programming class and here is the list of Objective is to fulfil :
+This project is meant for our advanced programming class and here is the list of objectives is to fulfil :
 - To apply all concepts learned in advance programming course.
     - Graphical User Interface.
     - Event-driven programming.
     - Java database programming using Hibernate ORM.
-    - and others.
+    - And others.
 - To try to mimic real world application.
 - To learn how to work in teams.
 - To learn how to organize your time.
@@ -45,6 +45,6 @@ and here is the list of the requirements for the project :
 * The whole concept of the event driving programming.
 * To make a full working JAVAFX application.
 * How to build a whole program by using JAVAFX and the Scene Builder to bulid interfaces and connect events to their event handlers via the controller.
-* Connecting the database to the program using Object Model.
+* Connecting the program to the database using Object Model.
 * Hibernate ORM (Object Relational Mapping)  which is Java Database Frameworks.
 
