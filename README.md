@@ -1,7 +1,7 @@
 # Baby Panda 🐼
 
 ## What?
-Our project is an educational and entertaining program for children, the main goal of the program is to develop the child' s mind 
+Our project is an educational and entertaining program for children, the main goal of the program is to develop the child's mind 
 by distinguishing letters and numbers and associating them with pictures.
 
 ### Basic functionality 
