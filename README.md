@@ -15,7 +15,22 @@ https://user-images.githubusercontent.com/80950031/209573084-20e260ca-0cd4-4362-
 
 
 ## Why?
-This project is meant for my advanced programming class 
+This project is meant for our advanced programming class and here is the list of Objective is to fulfil :
+- To apply all concepts learned in advance programming course.
+    - Graphical User Interface.
+    - Event-driven programming.
+    - Java database programming using Hibernate ORM.
+    - and others.
+- To try to mimic real world application.
+- To learn how to work in teams.
+- To learn how to organize your time.
+
+and here is the list of the requirements for the project : 
+- GUI requirements.
+- Database requirements.
+- General requirements, like bug free , data validation, etc.
+- Extra requirements, like File I/O, Effects and animation, and Multimedia.
+
 ## When? 
 16/9/2022 until 5/11/2022
 
