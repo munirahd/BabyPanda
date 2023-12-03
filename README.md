@@ -1,50 +1,44 @@
-# Baby Panda 🐼
+# Baby Panda 🐼: An Educational Program for Children
 
-## What?
-Our project is an educational and entertaining program for children, the main goal of the program is to develop the child's mind 
-by distinguishing letters and numbers and associating them with pictures.
+## Overview
+"Baby Panda" is an educational and entertaining software designed for children, focusing on developing cognitive skills through interactive learning of letters, numbers, and associated imagery.
 
-### Basic functionality 
-Our project is dedicated to making learning fun, the user "kid" will enter their personal information to create an account, 
-and if they already have an account they will log in to it using their user ID and password, in addition to the log in services the user can learn the letters and numbers, and see their progress and what they have learned so far. 
-and export what they learned to a text file. and they can also listen to the letters song making their learning experience more fun!
+### Basic Functionality
+- **User Account Management:** Children can create their own accounts by providing personal information or log into existing accounts using their user ID and password.
+- **Learning Modules:** The program offers modules for learning letters and numbers, with progress tracking and an overview of what the user has learned so far.
+- **Export Feature:** Users can export their learning progress to a text file.
+- **Multimedia Integration:** The application includes a 'letters song' to enhance the learning experience with a fun, auditory element.
 
 ### Live Demo
-https://user-images.githubusercontent.com/80950031/209573084-20e260ca-0cd4-4362-b477-0efbf7b59b72.mov
+A live demonstration of the program's features and interface is available:
+[Watch the Demo](https://user-images.githubusercontent.com/80950031/209573084-20e260ca-0cd4-4362-b477-0efbf7b59b72.mov)
 
+## Purpose
+This project was developed for an advanced programming class with the following objectives:
+- To apply concepts learned in the course, such as GUI development, event-driven programming, and Java database programming using Hibernate ORM.
+- To simulate the development process of a real-world application.
+- To cultivate teamwork and time management skills.
 
+### Project Requirements
+- **GUI:** User-friendly and interactive graphical interface.
+- **Database:** Efficient data management and storage.
+- **General:** Ensuring a bug-free experience with robust data validation.
+- **Extra:** Incorporation of file I/O, effects and animations, and multimedia elements.
 
-## Why?
-This project is meant for our advanced programming class and here is the list of objectives is to fulfil :
-- To apply all concepts learned in advance programming course.
-    - Graphical User Interface.
-    - Event-driven programming.
-    - Java database programming using Hibernate ORM.
-    - And others.
-- To try to mimic real world application.
-- To learn how to work in teams.
-- To learn how to organize your time.
+## Project Timeline
+**Duration:** September 16, 2022, to November 5, 2022
 
-and here is the list of the requirements for the project : 
-- GUI requirements.
-- Database requirements.
-- General requirements, like bug free , data validation, etc.
-- Extra requirements, like File I/O, Effects and animation, and Multimedia.
+## Contributors
+**Team Members:**
+* Munira Alduraibi (Project Lead)
+* Areej Almisfer - Co-contributor
+* Khulod Andargiri - Co-contributor
 
-## When? 
-16/9/2022 until 5/11/2022
-
-## Who?
-**Authors**
-* Munira Alduraibi (me)
-* [Areej Almisfer]()
-* [khulod andargiri]()
-
-# What I learned?
-* The design pattern of MVC which is Model-View-Controller.
-* The whole concept of the event driving programming.
-* To make a full working JAVAFX application.
-* How to build a whole program by using JAVAFX and the Scene Builder to bulid interfaces and connect events to their event handlers via the controller.
-* Connecting the program to the database using Object Model.
-* Hibernate ORM (Object Relational Mapping)  which is Java Database Frameworks.
-
+## Key Learnings
+The project facilitated the acquisition of several key skills and concepts:
+- Understanding and implementing the Model-View-Controller (MVC) design pattern.
+- Mastering event-driven programming.
+- Developing a comprehensive JavaFX application.
+- Utilizing Scene Builder for interface design and event handler connections.
+- Database integration using the Object Model.
+- Proficiency in Hibernate ORM, a Java database framework.
