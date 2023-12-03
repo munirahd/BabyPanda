@@ -42,3 +42,4 @@ The project facilitated the acquisition of several key skills and concepts:
 - Utilizing Scene Builder for interface design and event handler connections.
 - Database integration using the Object Model.
 - Proficiency in Hibernate ORM, a Java database framework.
+- MySQL was utilized as a database.
