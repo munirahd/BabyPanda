@@ -26,7 +26,7 @@ This project was developed for an advanced programming class with the following 
 - **Extra:** Incorporation of file I/O, effects and animations, and multimedia elements.
 
 ## Project Timeline
-**Duration:** September 16, 2022, to November 5, 2022
+**Duration:** Sep 2022 - Nov 2022
 
 ## Contributors
 **Team Members:**
